@@ -1,0 +1,8 @@
+.vscode/
+.idea/
+bin/
+*build*/
+docs/
+
+a.out
+lib/
