@@ -28,6 +28,8 @@
 
 #ifdef __linux__
     #include <sys/syscall.h>
+#elif _WIN32
+    #include <windows.h>
 #endif
 
 // 定义日志级别
