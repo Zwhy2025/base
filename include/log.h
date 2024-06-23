@@ -278,7 +278,7 @@ private:
         oss << "[" << std::put_time(tm, "%Y-%m-%d %H:%M:%S") << "." << std::setfill('0') << std::setw(3) << ms.count() << "] ";
         oss << "[" << _logLevelToString(level) << "]";
         oss << "[" << _getProcessId()<< "]: " << message;
-        oss << " (" << _extractFilename(file) << " " << func << ":" << line << ")" << std::endl;
+        oss << " (" <<  func << " " << _extractFilename(file) << ":" << line <<  ")" << std::endl;
 
         return oss.str();
     }
