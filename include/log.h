@@ -1,4 +1,4 @@
-/**
+﻿/**
  * @file   log.h
  * @brief  一个轻量级head-only日志系统
  * @date   2024-06-22

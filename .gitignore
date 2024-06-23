@@ -1,5 +1,7 @@
-.vscode/
+﻿.vscode/
 .idea/
+.vs/
+.vscode/ 
 bin/
 *build*/
 docs/

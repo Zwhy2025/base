@@ -1,9 +1,15 @@
-cmake_minimum_required(VERSION 3.10)
+﻿cmake_minimum_required(VERSION 3.10)
+set(VCPKG_ROOT "D:/github/vcpkg/")
+if(WIN32)
+    set(CMAKE_TOOLCHAIN_FILE "${VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake")
+elseif(0)#todp 暂时未启用vcpkg on linux
+    set(CMAKE_TOOLCHAIN_FILE "${VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake")
+endif()
 project(base)
 
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
-set(CMAKE_VERBOSE_MAKEFILE 1)  # 开启调试信息
+set(CMAKE_VERBOSE_MAKEFILE 1)  #  开启调试信息
 
 # 查找GTest库
 find_package(GTest REQUIRED)

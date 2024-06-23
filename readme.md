@@ -1,4 +1,4 @@
-# 基线工作流
+﻿# 基线工作流
 ## 项目结构
 ```
 .
@@ -12,6 +12,10 @@
 │   └── test/
 └── README.md
 ```
+## 默认配置
+编码格式：UTF-8 with BOM
+vscode: "cmake.generator": "Visual Studio 17 2022"
+Clion: 在输出控制台中模拟终端
 ## 项目说明
 ## C++
 ### Doxygen文档生成

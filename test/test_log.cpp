@@ -1,4 +1,4 @@
-#include <gtest/gtest.h>
+﻿#include <gtest/gtest.h>
 #include "log.h"
 
 // 定义一个模板函数来测量和打印函数执行时间
