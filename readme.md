@@ -13,10 +13,10 @@
 └── README.md
 ```
 ## 默认配置
-编码格式：UTF-8 with BOM
-VSCode : "cmake.generator": "Visual Studio 17 2022"
-CLion  : 在输出控制台中模拟终端
-VS2022 : .editorconfig
+编码格式：UTF-8 with BOM  
+VSCode : "cmake.generator": "Visual Studio 17 2022"  
+CLion  : 在输出控制台中模拟终端  
+VS2022 : .editorconfig  
 ## 项目说明
 ## C++
 ### Doxygen文档生成
